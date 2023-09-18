@@ -112,6 +112,10 @@ resources:
 # Sealed Secrets
 - argocd/instances/sealed-secrets.yaml
 
+- argocd/instances/ibm-sfg-db2-prod.yaml
+- argocd/instances/ibm-sfg-mq-prod.yaml
+- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
+
 # CICD
 #- argocd/operators/grafana-operator.yaml
 #- argocd/instances/grafana-instance.yaml
