@@ -2,7 +2,7 @@ resources:
 # IBM Software
 
 # Sealed Secrets
-# - argocd/instances/sealed-secrets.yaml
+- argocd/instances/sealed-secrets.yaml
 
 # B2BI
 # - argocd/instances/ibm-sfg-db2-prod.yaml
