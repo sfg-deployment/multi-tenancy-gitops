@@ -4,7 +4,10 @@ resources:
 - argocd/namespace-sealed-secrets.yaml
 - argocd/serviceaccounts-b2bi-prod.yaml
 - argocd/sfg-b2bi-clusterwide.yaml
-# - argocd/namespace-mash.yaml
+- argocd/namespace-connect-direct.yaml
+- argocd/serviceaccounts-connect-direct.yaml
+- argocd/sterling-cd-clusterwide.yaml
+
 
 patches:
 - target:
