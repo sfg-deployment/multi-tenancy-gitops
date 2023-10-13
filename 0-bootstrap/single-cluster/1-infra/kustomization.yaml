@@ -7,7 +7,9 @@ resources:
 - argocd/namespace-connect-direct.yaml
 - argocd/serviceaccounts-connect-direct.yaml
 - argocd/sterling-cd-clusterwide.yaml
-
+- argocd/namespace-sccm.yaml
+- argocd/serviceaccounts-sccm.yaml
+- argocd/sccm-clusterwide.yaml
 
 patches:
 - target:
