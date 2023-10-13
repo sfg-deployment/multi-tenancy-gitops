@@ -12,7 +12,7 @@ resources:
 
 ## Connect Direct
 - argocd/instances/ibm-connect-direct-setup.yaml
-- argocd/instances/ibm-connect-direct.yaml
+# - argocd/instances/ibm-connect-direct.yaml
 patches:
 - target:
     group: argoproj.io
